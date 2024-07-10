@@ -1,0 +1,7 @@
+#PT-Training
+CPU times: user 7h 18min 16s, sys: 3h 7min 31s, total: 10h 25min 47s
+Wall time: 5h 27min 20s
+
+#unPT-Training
+CPU times: user 6h 28min 45s, sys: 2h 9min 7s, total: 8h 37min 53s
+Wall time: 5h 45min 3s
