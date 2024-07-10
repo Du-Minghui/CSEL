@@ -1,0 +1,16 @@
+scipy
+hyperopt 
+scikit-learn==1.0.2 
+numpy==1.21.5 
+scipy==1.7.3 
+scipy==1.13.1 
+pandas==1.3.5 
+pyswarm 
+optuna 
+nltk 
+matplotlib 
+seaborn 
+pycm
+mlxtend 
+statsmodels 
+
