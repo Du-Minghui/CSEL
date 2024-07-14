@@ -11,9 +11,25 @@ Attention!
 
 ***Our project is currently in progress and will be further refined in the near future***
 
-**Jul 10, 2024** : Build a repository, upload model core code and drawing code
+**Jul 10, 2024** : 
 
-**Jul 14, 2024** : Add data and upload Shell scripts
+1. Build a repository
+
+2. upload model core code 
+
+3. upload drawing code
+
+**Jul 14, 2024** : 
+
+1. supplement data
+
+2. upload data preprocessing
+
+3. upload Shell scripts
+
+4. upload model evaluation system
+
+
 
 
 ## Hardware environment
