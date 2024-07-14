@@ -9,8 +9,6 @@ The sluggish pace of new antibacterial drug development reflects a vulnerability
 Attention!
 =
 
-***Our project is currently in progress and will be further refined in the near future***
-
 **Jul 10, 2024** : 
 
 1. Build a repository
