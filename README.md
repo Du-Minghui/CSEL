@@ -11,6 +11,11 @@ Attention!
 
 ***Our project is currently in progress and will be further refined in the near future***
 
+**Jul 10, 2024** : Build a repository, upload model core code and drawing code
+
+**Jul 14, 2024** : Add data and upload Shell scripts
+
+
 ## Hardware environment
 Our project was completed in the following hardware environment:
 
