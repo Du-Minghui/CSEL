@@ -1,5 +1,0 @@
-models,Optuna,Hyperopt,RandomizedSearch,unHPO
-RF,77.11,75.06,74.18,72.86
-ETs,75.34,74.27,74.53,72.57
-NuSCV,71.68,73.02,71.77,70.7
-Ridge,72.13,72.66,73.29,67.34
