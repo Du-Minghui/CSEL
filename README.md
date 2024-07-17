@@ -123,11 +123,16 @@ paste -s *.pfs > pfs.txt
 Use `onehot.ipynb` to build the feature matrix.
 
 
+# Hyperparameter Settings
+
+Refer to the supplementary materials for hyperparameter settings.
+
+# Other Relevant Configurations
+
+Refer to the code section for other relevant configurations.
 
 
-
-
-## Reference
+# Reference
 
 * [DeepBGC](https://github.com/Merck/bgc-pipeline) - DeepBGC development & evaluation code
 * [SRD](https://github.com/davidbajusz/srdpy) - Python implementation of Sum of Ranking Differences (SRD)
