@@ -1,0 +1,43 @@
+	cand_id	database match	percent identity	align length	e-value	BGC match	domain class	domain subclass	
+KS22	NZ_CP052033.1.region016_1_5_1239_1664	meridamycin_KS15_cisAT	72	426	1.26e-196	meridamycin	type I modular cis-AT	no subclass
+KS4	NZ_CP052033.1.region016_1_5_210_615	chlorothricin_KS01_cisloading	64	423	3.29e-163	chlorothricin	type I modular cis-AT	loading module
+KS20	NZ_CP052032.1.region010_5_5_1239_1664	meridamycin_KS15_cisAT	72	426	1.26e-196	meridamycin	type I modular cis-AT	no subclass
+KS6	NZ_CP052032.1.region010_5_5_210_615	chlorothricin_KS01_cisloading	64	423	3.29e-163	chlorothricin	type I modular cis-AT	loading module
+KS21	NC_021985.1.region019_5_5_1239_1664	meridamycin_KS15_cisAT	72	426	1.26e-196	meridamycin	type I modular cis-AT	no subclass
+KS5	NC_021985.1.region019_5_5_210_615	chlorothricin_KS01_cisloading	64	423	3.29e-163	chlorothricin	type I modular cis-AT	loading module
+KS34	NZ_CP052033.1.region016_2_8_173_594	divergolide_KS03_cisAT	70	425	1.74e-190	divergolide	type I modular cis-AT	no subclass
+KS36	NZ_CP052032.1.region010_4_8_173_594	divergolide_KS03_cisAT	70	425	1.74e-190	divergolide	type I modular cis-AT	no subclass
+KS35	NC_021985.1.region019_4_8_173_594	divergolide_KS03_cisAT	70	425	1.74e-190	divergolide	type I modular cis-AT	no subclass
+KS23	NC_014318.1.region016_6_5_930_1337	chondrochloren_KS01_cisAT	60	425	4.59e-148	chondrochloren	type I modular cis-AT	no subclass
+KS26	NC_022116.1.region016_6_5_930_1337	chondrochloren_KS01_cisAT	60	425	2.21e-147	chondrochloren	type I modular cis-AT	no subclass
+KS24	NC_018266.1.region016_6_5_930_1337	chondrochloren_KS01_cisAT	60	425	2.21e-147	chondrochloren	type I modular cis-AT	no subclass
+KS25	NC_017186.1.region016_6_5_930_1337	chondrochloren_KS01_cisAT	60	425	2.21e-147	chondrochloren	type I modular cis-AT	no subclass
+KS28	NZ_CP073655.1.region027_6_7_48_503	ShewanellaPUFA_KS01_iPKSPUFA	53	456	9.92e-147	Shewanella polyunsaturated fatty acid	type I iterative cis-AT	PUFA
+KS30	NZ_CP017839.1.region019_4_7_48_503	ShewanellaPUFA_KS01_iPKSPUFA	53	456	9.92e-147	Shewanella polyunsaturated fatty acid	type I iterative cis-AT	PUFA
+KS29	NZ_AP017900.1.region012_3_7_48_503	ShewanellaPUFA_KS01_iPKSPUFA	53	456	9.92e-147	Shewanella polyunsaturated fatty acid	type I iterative cis-AT	PUFA
+KS11	NZ_CP045996.1.region004_3_6_162_584	stigmatellin_KS04_cisAT	51	427	3.61e-138	stigmatellin	type I modular cis-AT	no subclass
+KS3	NZ_CP013392.1.region002_5_7_74_497	puwainaphycin_KS02_cisAT	51	426	4.55e-138	puwainaphycin	type I modular cis-AT	no subclass
+KS1	NZ_CP009745.1.region006_1_9_74_496	puwainaphycin_KS02_cisAT	50	425	4.55e-138	puwainaphycin	type I modular cis-AT	no subclass
+KS27	NZ_CP086299.1.region005_6_8_197_621	myxalamid_KS07_cisAT	50	427	4.11e-136	myxalamid	type I modular cis-AT	no subclass
+KS41	NZ_CP074714.1.region003_2_4_34_458	mycosubtilin_KS01_transAT	49	425	7.40e-135	mycosubtilin	type I trans-AT	no subclass
+KS38	NZ_CP068135.1.region009_4_2_34_458	mycosubtilin_KS01_transAT	49	425	7.40e-135	mycosubtilin	type I trans-AT	no subclass
+KS39	NZ_CP050183.1.region002_2_4_34_458	mycosubtilin_KS01_transAT	49	425	7.40e-135	mycosubtilin	type I trans-AT	no subclass
+KS42	NZ_CP029468.1.region004_2_2_34_458	mycosubtilin_KS01_transAT	49	425	7.40e-135	mycosubtilin	type I trans-AT	no subclass
+KS40	NZ_CP028516.1.region004_2_2_34_458	mycosubtilin_KS01_transAT	49	425	7.40e-135	mycosubtilin	type I trans-AT	no subclass
+KS37	NZ_CP016315.1.region004_2_2_34_458	mycosubtilin_KS01_transAT	49	425	7.40e-135	mycosubtilin	type I trans-AT	no subclass
+KS7	NZ_LN868939.1.region007_3_6_25_449	myxothiazol_KS05_cisAT	48	426	6.76e-128	myxothiazol	type I modular cis-AT	no subclass
+KS8	NZ_CP086599.1.region018_6_7_25_449	myxothiazol_KS05_cisAT	48	426	6.76e-128	myxothiazol	type I modular cis-AT	no subclass
+KS9	NZ_CP031418.1.region020_3_6_25_449	myxothiazol_KS05_cisAT	48	426	6.76e-128	myxothiazol	type I modular cis-AT	no subclass
+KS31	NZ_CP073655.1.region011_6_6_253_676	chondrochloren_KS01_cisAT	51	426	2.25e-126	chondrochloren	type I modular cis-AT	no subclass
+KS33	NZ_CP017839.1.region004_6_8_253_676	chondrochloren_KS01_cisAT	51	426	2.25e-126	chondrochloren	type I modular cis-AT	no subclass
+KS32	NZ_AP017900.1.region005_6_6_253_676	chondrochloren_KS01_cisAT	50	426	5.68e-126	chondrochloren	type I modular cis-AT	no subclass
+KS15	NZ_CP020570.1.region020_5_5_78_543	tubulysin_KS02_cisHybridKS	48	467	1.55e-118	tubulysin	type I modular cis-AT	hybrid KS
+KS18	NZ_CP070254.1.region019_6_7_72_530	tubulysin_KS02_cisHybridKS	49	460	3.55e-118	tubulysin	type I modular cis-AT	hybrid KS
+KS16	NZ_CP070249.1.region019_6_7_72_530	tubulysin_KS02_cisHybridKS	49	460	3.55e-118	tubulysin	type I modular cis-AT	hybrid KS
+KS19	NZ_CP070245.1.region014_3_8_72_530	tubulysin_KS02_cisHybridKS	49	460	3.55e-118	tubulysin	type I modular cis-AT	hybrid KS
+KS17	NZ_CP070242.1.region019_6_7_72_530	tubulysin_KS02_cisHybridKS	49	460	3.55e-118	tubulysin	type I modular cis-AT	hybrid KS
+KS10	NZ_CP070260.1.region014_3_9_78_536	kedarcidin_KS02_cisHybridKS	48	464	1.12e-117	kedarcidin	type I modular cis-AT	hybrid KS
+KS2	NZ_CP058556.1.region013_2_6_78_544	tubulysin_KS02_cisHybridKS	48	468	6.38e-116	tubulysin	type I modular cis-AT	hybrid KS
+KS12	NZ_LN681227.1.region009_3_1_715_1132	SynechococcusOLS_KS01_cisOLS	45	421	1.88e-103	Synechococcus sp olefin synthase	type I modular cis-AT	olefin synthase
+KS13	NZ_CP060401.1.region010_5_1_715_1132	SynechococcusOLS_KS01_cisOLS	45	421	1.88e-103	Synechococcus sp olefin synthase	type I modular cis-AT	olefin synthase
+KS14	NZ_CP032329.1.region010_5_1_715_1132	SynechococcusOLS_KS01_cisOLS	45	421	1.88e-103	Synechococcus sp olefin synthase	type I modular cis-AT	olefin synthase
