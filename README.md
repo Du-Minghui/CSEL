@@ -6,7 +6,7 @@ The sluggish pace of new antibacterial drug development reflects a vulnerability
 ![image](https://github.com/Du-Minghui/CSEL/blob/main/Graphic%20Abstract.jpg)
 
 
-Attention!
+Experimental details
 =
 
 **Jul 10, 2024** : 
@@ -48,6 +48,60 @@ The table below displays the time taken by the CSEL model over 10 replicates of 
 
 ## Random seed settings
 We did not set a random seed in the base module of the CSEL model, as we rely on the average performance metrics of 10 replicates of 5-fold cross-validation to mitigate randomness.
+
+
+# Data Preprocessing
+
+## 1. MIBiG Dataset
+
+### 1.1 Downloading from the Database
+
+Download all entries in both GBK and JSON formats for:
+- Version 1.3 from [MIBiG Database v1.3](https://mibig.secondarymetabolites.org/download)
+- Version 3.1 from [MIBiG Database v3.1](https://mibig.secondarymetabolites.org/download)
+
+### 1.2 Installing HMMER and Downloading PFAM Database
+
+- Install HMMER version 3.1b2
+- Download PFAM 34.0 database
+
+### 1.3 Annotating BGC Entries Using HMMER
+
+Run HMMER to scan BGC entries:
+```bash
+hmmscan --domtblout mibig_domtbl.tbl /pfam/Pfam-A.hmm mibig_proteins.fa
+```
+
+### 1.4 Extracting BGC Features Using DeepBGC Pipeline
+
+Use Python scripts from the DeepBGC pipeline:
+```bash
+python domtbl2csv.py -i mibig_domtbl.tbl -o mibig_domains.csv
+python domtbl2csv.py -i mibig_domtbl.tbl -f proteins2fasta -o mibig_domains.csv
+python positive_mibig.py -i mibig_domains.csv -g genome -o mibig_bgcs_all -md 1 -mp 1 -e 0.01
+```
+
+### 1.5 Building the Feature Matrix
+
+Use `bgc_counts.ipynb` to build the feature matrix.
+
+### 1.6 Extracting BGC Chemical Activity
+
+Due to differences in encoding methods between JSON files of versions 3.1 and 1.3, we modified the script `mibig_compounds.py` to `mibig_compounds_.py`. Extract BGC chemical activity using:
+```bash
+python mibig_compounds_.py -g mibig_gbk_3.1 -j mibig_json_3.1 -o mibig_compounds.csv
+```
+
+### 1.7 Building the Chemical Activity Matrix
+
+Use `activity_counts.ipynb` to build the chemical activity matrix.
+
+### 1.8 Filtering Antibacterial Activity BGCs
+
+Filter out BGCs with antibacterial activity from the dataset.
+
+
+
 
 
 ## Reference
