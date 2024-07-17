@@ -9,27 +9,6 @@ The sluggish pace of new antibacterial drug development reflects a vulnerability
 Experimental details
 =
 
-**Jul 10, 2024** : 
-
-1. Build a repository
-
-2. upload model core code 
-
-3. upload drawing code
-
-**Jul 14, 2024** : 
-
-1. supplement data
-
-2. upload data preprocessing
-
-3. upload Shell scripts
-
-4. upload model evaluation system
-
-
-
-
 ## Hardware environment
 Our project was completed in the following hardware environment:
 
@@ -117,12 +96,11 @@ Run antiSMASH with the following parameters:
 
 Use the provided script to convert HTML results to CSV:
 ```bash
-python html2csv.py -i [input HTML directory] -o [output CSV file]
+python html2csv.py -i [input HTML format] -o [output CSV format]
 ```
 
-### 2.4 Clustering BGCs Based on Similarity
+### 2.4 Partition the dataset based on the similarity of BGCs
 
-Cluster the BGCs based on their similarity using appropriate methods and tools.
 
 ### 2.5 Identifying Pfam Domains Using BIG-SCAPE
 
@@ -153,3 +131,22 @@ Use `onehot.ipynb` to build the feature matrix.
 * [SRD](https://github.com/davidbajusz/srdpy) - Python implementation of Sum of Ranking Differences (SRD)
 * [DF](https://github.com/LAMDA-NJU/Deep-Forest) - Deep Forest model
 
+
+
+**Jul 10, 2024** : 
+
+1. Build a repository
+
+2. upload model core code 
+
+3. upload drawing code
+
+**Jul 14, 2024** : 
+
+1. supplement data
+
+2. upload data preprocessing
+
+3. upload Shell scripts
+
+4. upload model evaluation system
