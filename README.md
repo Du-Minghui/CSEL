@@ -101,6 +101,8 @@ python html2csv.py -i [input HTML format] -o [output CSV format]
 
 ### 2.4 Partition the dataset based on the similarity of BGCs
 
+BGCs with similarity >75% are used as the external test set, while BGCs with similarity = 0 are utilized for the discovery of potential antimicrobial natural products.
+
 
 ### 2.5 Identifying Pfam Domains Using BIG-SCAPE
 
