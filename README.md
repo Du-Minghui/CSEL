@@ -140,20 +140,32 @@ Refer to the code section for other relevant configurations.
 
 
 
-**Jul 10, 2024** : 
+**Jul 10, 2024 :**
 
-1. Build a repository
+1. Establish a repository
 
-2. upload model core code 
+2. Upload the core code of the model
 
-3. upload drawing code
+3. Upload the code for generating drawings
 
-**Jul 14, 2024** : 
+**Jul 14, 2024 :**
 
-1. supplement data
+1. Supplement data
 
-2. upload data preprocessing
+2. Upload data preprocessing scripts
 
-3. upload Shell scripts
+3. Upload Shell scripts
 
-4. upload model evaluation system
+4. Upload the model evaluation system
+
+**Jul 17, 2024 :**
+
+1. Upload AgglomerativeHC
+
+2. Upload Bigscape
+
+3. Upload NaPDoS2
+
+4. Document the data preprocessing steps
+
+5. Rectify errors
