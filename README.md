@@ -140,32 +140,6 @@ Refer to the code section for other relevant configurations.
 
 
 
-**Jul 10, 2024 :**
+# Refer to the study: 
 
-1. Establish a repository
-
-2. Upload the core code of the model
-
-3. Upload the code for generating drawings
-
-**Jul 14, 2024 :**
-
-1. Supplement data
-
-2. Upload data preprocessing scripts
-
-3. Upload Shell scripts
-
-4. Upload the model evaluation system
-
-**Jul 17, 2024 :**
-
-1. Upload AgglomerativeHC
-
-2. Upload Bigscape
-
-3. Upload NaPDoS2
-
-4. Document the data preprocessing steps
-
-5. Rectify errors
+Du, M., Ren, Y., Zhang, Y., et al. (2024). CSEL-BGC: A bioinformatics framework integrating machine learning for defining the biosynthetic evolutionary landscape of uncharacterized antibacterial natural products. Interdisciplinary Sciences: Computational Life Sciences. https://doi.org/10.1007/s12539-024-00656-5
